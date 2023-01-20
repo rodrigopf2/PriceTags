@@ -1,0 +1,16 @@
+E:\aulas\price tags\bin\Debug\net5.0\price tags.exe
+E:\aulas\price tags\bin\Debug\net5.0\price tags.deps.json
+E:\aulas\price tags\bin\Debug\net5.0\price tags.runtimeconfig.json
+E:\aulas\price tags\bin\Debug\net5.0\price tags.runtimeconfig.dev.json
+E:\aulas\price tags\bin\Debug\net5.0\price tags.dll
+E:\aulas\price tags\bin\Debug\net5.0\ref\price tags.dll
+E:\aulas\price tags\bin\Debug\net5.0\price tags.pdb
+E:\aulas\price tags\obj\Debug\net5.0\price tags.csproj.AssemblyReference.cache
+E:\aulas\price tags\obj\Debug\net5.0\price tags.GeneratedMSBuildEditorConfig.editorconfig
+E:\aulas\price tags\obj\Debug\net5.0\price tags.AssemblyInfoInputs.cache
+E:\aulas\price tags\obj\Debug\net5.0\price tags.AssemblyInfo.cs
+E:\aulas\price tags\obj\Debug\net5.0\price tags.csproj.CoreCompileInputs.cache
+E:\aulas\price tags\obj\Debug\net5.0\price tags.dll
+E:\aulas\price tags\obj\Debug\net5.0\ref\price tags.dll
+E:\aulas\price tags\obj\Debug\net5.0\price tags.pdb
+E:\aulas\price tags\obj\Debug\net5.0\price tags.genruntimeconfig.cache
