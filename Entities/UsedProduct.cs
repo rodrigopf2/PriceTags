@@ -16,7 +16,10 @@ namespace price_tags.Entities
             ManufactureDate = manufactureDate;
         }
 
-
+        public string PriceTag()
+        {
+            return $"{Name} $ {Price} (Customs fee: $)";
+        }
     }
 
     

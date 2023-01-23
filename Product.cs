@@ -16,7 +16,7 @@ namespace price_tags
             Name = name;
             Price = price;
         }
-
+        //Common product
        
     }
 }

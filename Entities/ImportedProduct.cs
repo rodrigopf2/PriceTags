@@ -13,9 +13,14 @@ namespace price_tags.Entities
             CustomsFee = customsFee;
         }
 
-        public virtual double totalPrice()
+        public double totalPrice()
         {
             return Price + CustomsFee;
+        }
+
+        public virtual string PriceTag()
+        {
+            return $"{Name} $ {Price} (Customs fee: ${CustomsFee})";
         }
     }
 }
