@@ -16,7 +16,7 @@ namespace price_tags
             for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Product #{i} data: ");
-                Console.Write("Common, used or imported? (c/u/i)");
+                Console.Write("Common, used or imported? (c/u/i) ");
                 char type = char.Parse(Console.ReadLine());
                 Console.Write("Name: ");
                 String Name = Console.ReadLine();
@@ -28,14 +28,14 @@ namespace price_tags
                 }
                 else if (type == 'u')
                 {
-                    Console.WriteLine("Manufacture date (DD/MM/YYYY): ");
+                    Console.Write("Manufacture date (DD/MM/YYYY): ");
 
                     DateTime date = DateTime.Parse(Console.ReadLine());
                     list.Add(new UsedProduct(Name,Price,date)); 
                 }
                 else
                 {
-                    Console.WriteLine("Customs fee: ");
+                    Console.Write("Customs fee: ");
                     double CustomsFee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     list.Add(new ImportedProduct(Name, Price, CustomsFee));
 
