@@ -17,6 +17,9 @@ namespace price_tags
             Price = price;
         }
         //Common product
-       
+       public virtual string PriceTag()
+        {
+            return $"{Name} $ {Price} ";
+        }
     }
 }

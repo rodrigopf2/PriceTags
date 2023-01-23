@@ -18,7 +18,7 @@ namespace price_tags.Entities
             return Price + CustomsFee;
         }
 
-        public virtual string PriceTag()
+        public override string PriceTag()
         {
             return $"{Name} $ {Price} (Customs fee: ${CustomsFee})";
         }

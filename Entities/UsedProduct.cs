@@ -16,9 +16,9 @@ namespace price_tags.Entities
             ManufactureDate = manufactureDate;
         }
 
-        public string PriceTag()
+        public override string PriceTag()
         {
-            return $"{Name} $ {Price} (Customs fee: $)";
+            return $"{Name} $ {Price} (Manufacture date: {ManufactureDate})";
         }
     }
 
