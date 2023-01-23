@@ -10,6 +10,8 @@ namespace price_tags.Entities
     {
         public DateTime ManufactureDate { get; set; }
 
+     
+
         public UsedProduct(string name, double price, DateTime manufactureDate) 
             : base(name,price)
         {
@@ -18,7 +20,7 @@ namespace price_tags.Entities
 
         public override string PriceTag()
         {
-            return $"{Name} $ {Price} (Manufacture date: {ManufactureDate})";
+            return $"{Name} (used) $ {Price} (Manufacture date: {ManufactureDate.ToString("dd/MM/yyyy")})";
         }
     }
 

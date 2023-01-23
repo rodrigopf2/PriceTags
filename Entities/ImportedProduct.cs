@@ -20,7 +20,7 @@ namespace price_tags.Entities
 
         public override string PriceTag()
         {
-            return $"{Name} $ {Price} (Customs fee: ${CustomsFee})";
+            return $"{Name} $ {totalPrice()} (Customs fee: ${CustomsFee})";
         }
     }
 }

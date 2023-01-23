@@ -26,10 +26,28 @@ namespace price_tags
                 {
                     list.Add(new Product(Name, Price));
                 }
+                else if (type == 'u')
+                {
+                    Console.WriteLine("Manufacture date (DD/MM/YYYY): ");
 
-                
+                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    list.Add(new UsedProduct(Name,Price,date)); 
+                }
+                else
+                {
+                    Console.WriteLine("Customs fee: ");
+                    double CustomsFee = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    list.Add(new ImportedProduct(Name, Price, CustomsFee));
+
+                }
                 
 
+            }
+            Console.WriteLine();
+            Console.WriteLine("PRICE TAGS: ");
+            foreach (Product prod in list)
+            {
+                Console.WriteLine(prod.PriceTag());
             }
         }
     }
